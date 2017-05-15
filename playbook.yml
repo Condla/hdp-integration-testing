@@ -1,0 +1,9 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: 
+  hosts: knox
+  gather_facts: yes
+  vars_files:
+    - ./vars/main.yml
+  roles:
+    - hdp-knox-test

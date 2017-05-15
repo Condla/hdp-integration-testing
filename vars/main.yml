@@ -1,0 +1,5 @@
+test_user_granted: "kate-hr"
+test_user_granted_password: "BadPass#1"
+test_user_granted_home_dir: "/user/kate-hr"
+test_user_denied: "legal1"
+test_user_denied_password: "BadPass#1"
